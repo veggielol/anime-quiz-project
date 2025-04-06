@@ -1,0 +1,144 @@
+/* Base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Screen wrapper */
+.screen {
+  display: none;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* Show the current screen */
+.screen.active {
+  display: flex;
+}
+
+/* Images */
+img {
+  width: 250px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #ff4500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4444;
+  transform: scale(1.05);
+}
+
+/* Options */
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 20px auto 0;
+}
+
+#options button {
+  background-color: #2196F3;
+}
+
+#options button:hover {
+  background-color: #1e88e5;
+}
+
+/* Timer and messages */
+#timer {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.message.correct {
+  color: green;
+}
+
+.message.wrong {
+  color: red;
+}
+
+.message.times-up {
+  color: crimson;
+  animation: shake 0.5s ease-in-out 2;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Filters */
+.filters {
+  margin-top: 20px;
+}
+
+.filters label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filters select {
+  padding: 6px 12px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Luffy image */
+#luffy-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  margin: 10px 0;
+  width: 200px;
+}
+
+/* Audio hidden */
+#voice-audio {
+  display: none;
+}
+
+/* Backgrounds */
+body.easy { background-color: #e6ffed; }
+body.medium { background-color: #fffbe6; }
+body.hard { background-color: #ffe6e6; }

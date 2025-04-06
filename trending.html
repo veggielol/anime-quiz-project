@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trending Anime 2025 - AnimeVerse</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #111;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #ff4747;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff4747;
+    }
+
+    .trending-container {
+      padding: 40px;
+    }
+
+    .anime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .anime-card {
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .anime-card:hover {
+      transform: scale(1.05);
+    }
+
+    .anime-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .anime-card .caption {
+      padding: 15px;
+      font-size: 16px;
+      color: #ffcc00;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trending Anime 2025</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Start Quiz</a>
+      <a href="leaderboard.html">Leaderboard</a>
+    </nav>
+  </header>
+
+  <div class="trending-container">
+    <div class="anime-grid">
+      <div class="anime-card">
+        <img src="images/ichigo-sky.jpg" alt="Ichigo Kurosaki">
+        <div class="caption">Bleach: Final Arc</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/tanjiro-splash.jpg" alt="Demon Slayer">
+        <div class="caption">Demon Slayer: Hashira Training</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/itadori-train.jpg" alt="Jujutsu Kaisen">
+        <div class="caption">Jujutsu Kaisen Season 3</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/naruto-vs-sasuke.jpg" alt="Naruto vs Sasuke">
+        <div class="caption">Boruto: Time Skip Arc</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/ichigo-group.jpg" alt="Bleach Crew">
+        <div class="caption">Bleach: Thousand Year Blood War</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/tanjiro-attack.jpg" alt="Tanjiro">
+        <div class="caption">Demon Slayer: Final Showdown</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/pain-sitting.jpg" alt="Pain">
+        <div class="caption">Naruto: Legacy of Pain</div>
+      </div>
+      <div class="anime-card">
+        <img src="images/gon-killua.jpg" alt="Gon and Killua">
+        <div class="caption">Hunter x Hunter 2025 Return</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 AnimeVerse. All rights reserved.
+  </footer>
+</body>
+</html>

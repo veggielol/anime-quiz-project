@@ -1,0 +1,354 @@
+[
+  {
+    "category": "One Piece",
+    "difficulty": "medium",
+    "question": "What is Luffy's brother's name?",
+    "options": ["Ace", "Sabo", "Zoro", "Garp"],
+    "answer": "Ace"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "easy",
+    "question": "Who is the main character of Bleach?",
+    "options": ["Ichigo Kurosaki", "Uryu Ishida", "Renji Abarai", "Byakuya Kuchiki"],
+    "answer": "Ichigo Kurosaki"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "easy",
+    "question": "Who is Goku's rival?",
+    "options": ["Vegeta", "Gohan", "Krillin", "Frieza"],
+    "answer": "Vegeta"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "easy",
+    "question": "What alias does Light use?",
+    "options": ["Kira", "L", "Yami", "Zero"],
+    "answer": "Kira"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "easy",
+    "question": "Who is the Attack Titan?",
+    "options": ["Eren Yeager", "Levi Ackerman", "Armin Arlert", "Erwin Smith"],
+    "answer": "Eren Yeager"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "easy",
+    "question": "What is Nezuko?",
+    "options": ["Demon", "Slayer", "Hashira", "Human"],
+    "answer": "Demon"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "medium",
+    "question": "Who turned Nezuko into a demon?",
+    "options": ["Muzan Kibutsuji", "Akaza", "Rui", "Enmu"],
+    "answer": "Muzan Kibutsuji"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "easy",
+    "question": "Who is known as the Copy Ninja?",
+    "options": ["Kakashi Hatake", "Naruto Uzumaki", "Itachi Uchiha", "Jiraiya"],
+    "answer": "Kakashi Hatake"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "easy",
+    "question": "What is Goku’s Saiyan name?",
+    "options": ["Kakarot", "Vegeta", "Nappa", "Raditz"],
+    "answer": "Kakarot"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "medium",
+    "question": "What must you know to kill someone with the Death Note?",
+    "options": ["Name and face", "Birthday", "Job", "Fingerprint"],
+    "answer": "Name and face"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "medium",
+    "question": "Who is the Flame Hashira?",
+    "options": ["Rengoku", "Tengen", "Giyu", "Shinobu"],
+    "answer": "Rengoku"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "medium",
+    "question": "Who is the main villain in early Bleach?",
+    "options": ["Aizen", "Ichigo", "Naruto", "Goku"],
+    "answer": "Aizen"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "medium",
+    "question": "What is the name of Goku's father?",
+    "options": ["Bardock", "Raditz", "Paragus", "Broly"],
+    "answer": "Bardock"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "medium",
+    "question": "Who trained Luffy in Haki?",
+    "options": ["Rayleigh", "Shanks", "Zoro", "Garp"],
+    "answer": "Rayleigh"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "easy",
+    "question": "Which clan has the Sharingan?",
+    "options": ["Uchiha", "Hyuga", "Senju", "Akimichi"],
+    "answer": "Uchiha"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "medium",
+    "question": "Who is the Sound Hashira?",
+    "options": ["Tengen Uzui", "Giyu", "Shinobu", "Tanjiro"],
+    "answer": "Tengen Uzui"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "easy",
+    "question": "Who trained Goku as a child?",
+    "options": ["Master Roshi", "Kami", "King Kai", "Piccolo"],
+    "answer": "Master Roshi"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "medium",
+    "question": "Who defeated Cell?",
+    "options": ["Gohan", "Goku", "Vegeta", "Trunks"],
+    "answer": "Gohan"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "easy",
+    "question": "Who is the captain of the Survey Corps?",
+    "options": ["Levi", "Erwin", "Eren", "Hange"],
+    "answer": "Levi"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "hard",
+    "question": "What is Naruto's ultimate form called?",
+    "options": ["Sage of Six Paths", "Super Saiyan", "Hollow Form", "Ultra Instinct"],
+    "answer": "Sage of Six Paths"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "easy",
+    "question": "Naruto’s son is named?",
+    "options": ["Boruto", "Kawaki", "Konohamaru", "Sarada"],
+    "answer": "Boruto"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "easy",
+    "question": "What is Ichigo's sword called?",
+    "options": ["Zangetsu", "Bankai", "Kamehameha", "Getsuga"],
+    "answer": "Zangetsu"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "easy",
+    "question": "Who is Luffy's first crewmate?",
+    "options": ["Zoro", "Sanji", "Usopp", "Nami"],
+    "answer": "Zoro"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "easy",
+    "question": "What is the name of the city within the walls?",
+    "options": ["Shiganshina", "Konoha", "Marineford", "Whiterun"],
+    "answer": "Shiganshina"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "easy",
+    "question": "What organization fights Titans?",
+    "options": ["Survey Corps", "Akatsuki", "Soul Society", "Knights of Sidonia"],
+    "answer": "Survey Corps"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "medium",
+    "question": "Who is the Armored Titan?",
+    "options": ["Reiner", "Levi", "Jean", "Mikasa"],
+    "answer": "Reiner"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "hard",
+    "question": "What is Goku’s most powerful form?",
+    "options": ["Ultra Instinct", "Super Saiyan 3", "Kaio-Ken", "God Mode"],
+    "answer": "Ultra Instinct"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "easy",
+    "question": "What happens when a name is written in the Death Note?",
+    "options": ["They die", "They forget", "They teleport", "They sleep"],
+    "answer": "They die"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "easy",
+    "question": "What is the name of the Soul Reaper group?",
+    "options": ["Soul Society", "Demon Slayer Corps", "Survey Corps", "Akatsuki"],
+    "answer": "Soul Society"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "easy",
+    "question": "What beast is sealed inside Naruto?",
+    "options": ["Kurama", "Gyuki", "Shukaku", "Matatabi"],
+    "answer": "Kurama"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "easy",
+    "question": "Who is the owner of the Death Note?",
+    "options": ["Light Yagami", "L", "Misa", "Ryuk"],
+    "answer": "Light Yagami"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "medium",
+    "question": "Who is the captain of Squad 6?",
+    "options": ["Byakuya Kuchiki", "Kenpachi", "Hitsugaya", "Urahara"],
+    "answer": "Byakuya Kuchiki"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "easy",
+    "question": "Who is the shinigami following Light?",
+    "options": ["Ryuk", "Rem", "Gelus", "L"],
+    "answer": "Ryuk"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "medium",
+    "question": "Who leads the Akatsuki initially?",
+    "options": ["Pain", "Itachi", "Obito", "Madara"],
+    "answer": "Pain"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "easy",
+    "question": "Who is the main character in demon slayer?",
+    "options": ["Tanjiro Kamado", "Inosuke", "Zenitsu", "Nezuko"],
+    "answer": "Tanjiro Kamado"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "easy",
+    "question": "What is Luffy's dream?",
+    "options": ["Become Pirate King", "Be Hokage", "Defeat Goku", "Rule the World"],
+    "answer": "Become Pirate King"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "hard",
+    "question": "What is Ichigo’s Bankai called?",
+    "options": ["Tensa Zangetsu", "Final Getsuga", "Shikai", "Senbonzakura"],
+    "answer": "Tensa Zangetsu"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "medium",
+    "question": "What is Eren’s brother’s name?",
+    "options": ["Zeke", "Armin", "Jean", "Marco"],
+    "answer": "Zeke"
+  },
+  {
+    "category": "Attack on Titan",
+    "difficulty": "medium",
+    "question": "Who has the Colossal Titan power?",
+    "options": ["Bertholdt", "Reiner", "Annie", "Zeke"],
+    "answer": "Bertholdt"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "easy",
+    "question": "What fruit did Luffy eat?",
+    "options": ["Gomu Gomu no Mi", "Mera Mera no Mi", "Hie Hie no Mi", "Bara Bara no Mi"],
+    "answer": "Gomu Gomu no Mi"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "easy",
+    "question": "What’s the name of the Demon Slayer organization?",
+    "options": ["Demon Slayer Corps", "Akatsuki", "Soul Society", "Team 7"],
+    "answer": "Demon Slayer Corps"
+  },
+  {
+    "category": "Bleach",
+    "difficulty": "medium",
+    "question": "What form does Ichigo gain?",
+    "options": ["Hollow", "Sage", "Demon", "Titan"],
+    "answer": "Hollow"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "medium",
+    "question": "Who is the second Kira?",
+    "options": ["Misa Amane", "Ryuk", "L", "Soichiro"],
+    "answer": "Misa Amane"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "easy",
+    "question": "Who is the navigator of the crew?",
+    "options": ["Nami", "Robin", "Sanji", "Zoro"],
+    "answer": "Nami"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "easy",
+    "question": "What attack is Goku known for?",
+    "options": ["Kamehameha", "Rasengan", "Final Flash", "Destructo Disk"],
+    "answer": "Kamehameha"
+  },
+  {
+    "category": "Death Note",
+    "difficulty": "medium",
+    "question": "What is L's full name?",
+    "options": ["L Lawliet", "Light Yagami", "Near", "Mello"],
+    "answer": "L Lawliet"
+  },
+  {
+    "category": "Naruto",
+    "difficulty": "medium",
+    "question": "Who killed Asuma Sarutobi?",
+    "options": ["Hidan", "Kakuzu", "Pain", "Orochimaru"],
+    "answer": "Hidan"
+  },
+  {
+    "category": "Demon Slayer",
+    "difficulty": "easy",
+    "question": "What weapon do demon slayers use?",
+    "options": ["Nichirin Blades", "Zanpakuto", "Kunai", "Dragon Balls"],
+    "answer": "Nichirin Blades"
+  },
+  {
+    "category": "One Piece",
+    "difficulty": "easy",
+    "question": "What is the name of Luffy's pirate crew?",
+    "options": ["Straw Hat Pirates", "Red Hair Pirates", "Whitebeard Pirates", "Blackbeard Pirates"],
+    "answer": "Straw Hat Pirates"
+  },
+  {
+    "category": "Dragon Ball",
+    "difficulty": "medium",
+    "question": "Who is the prince of the Saiyans?",
+    "options": ["Vegeta", "Goku", "Broly", "Gohan"],
+    "answer": "Vegeta"
+  }
+]
+
+

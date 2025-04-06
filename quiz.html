@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen" class="screen active">
+    <img src="images/login.jpg" alt="Login Background" />
+    <h1>Welcome to the Ultimate Anime Quiz!</h1>
+
+    <!-- Category and Difficulty Filters -->
+    <div class="filters">
+      <label for="category-select">Select Category:</label>
+      <select id="category-select">
+        <option value="any">Any</option>
+        <option value="Naruto">Naruto</option>
+        <option value="One Piece">One Piece</option>
+        <option value="Dragon Ball">Dragon Ball</option>
+        <option value="Attack on Titan">Attack on Titan</option>
+        <option value="Demon Slayer">Demon Slayer</option>
+        <option value="Bleach">Bleach</option>
+        <option value="Death Note">Death Note</option>
+      </select>
+
+      <label for="difficulty-select">Select Difficulty:</label>
+      <select id="difficulty-select">
+        <option value="any">Any</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <button onclick="startQuiz()" id="start-btn">Start Quiz</button>
+    <button onclick="goToHomepage()">Go to Homepage</button>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="quiz-screen" class="screen">
+    <img src="images/quiz.jpg" alt="Quiz Background" />
+    <h2 id="question"></h2>
+    <img id="luffy-image" src="images/luffy.jpg" alt="Luffy" />
+
+    <div id="options"></div>
+
+    <p id="timer">Time Left: <span id="time">20</span>s</p>
+    <p id="message" class="message"></p>
+
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="result-screen" class="screen">
+    <h1>Quiz Complete!</h1>
+    <p id="score-text"></p>
+    <p id="high-score"></p>
+    <audio id="voice-audio" controls style="display: none;"></audio>
+    <button onclick="startQuiz()">Play Again</button>
+    <button onclick="goToHomepage()">Go to Homepage</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
